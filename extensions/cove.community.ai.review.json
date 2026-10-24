@@ -1,0 +1,26 @@
+{
+  "id": "cove.community.ai.review",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/skier233/AI.Extensions/main/extensions/AI.Review/extension.json",
+  "name": "AI Review",
+  "description": "Review AI tag segments one tag at a time to be able to provide feedback to help improve the accuracy of the AI models.",
+  "author": "skier233",
+  "repositoryUrl": "https://github.com/skier233/AI.Extensions",
+  "categories": [
+    "ai",
+    "metadata",
+    "tagging",
+    "review"
+  ],
+  "screenshots": [],
+  "versions": [
+    {
+      "version": "0.8.0",
+      "changelog": "Initial release: review AI tag segments one tag at a time to be able to provide feedback to help improve the accuracy of the AI models.",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-review/v0.8.0/cove.community.ai.review-0.8.0.zip",
+      "minCoveVersion": "1.7.0",
+      "dependencies": {
+        "cove.community.ai.tagging": ">=0.8.0"
+      }
+    }
+  ]
+}

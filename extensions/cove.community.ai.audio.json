@@ -66,6 +66,15 @@
       },
       "checksum": "sha256:6946bceda346ae971648a98f3c1a7756e23acc6faf6c3b57b3c299c827deb439",
       "releasedAt": "2026-09-24T20:36:24Z"
+    },
+    {
+      "version": "0.8.0",
+      "changelog": "Read asset-level analysis results for videos and let capability contributors plan their own claims.",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-audio/v0.8.0/cove.community.ai.audio-0.8.0.zip",
+      "minCoveVersion": "1.7.0",
+      "dependencies": {
+        "cove.community.ai.core": ">=0.8.0"
+      }
     }
   ]
 }

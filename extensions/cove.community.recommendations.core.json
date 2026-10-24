@@ -1,0 +1,23 @@
+{
+  "id": "cove.community.recommendations.core",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/recommendations/main/extensions/Recommendations.Core/extension.json",
+  "name": "Recommendations Core",
+  "description": "Foundational infrastructure for recommendation extensions: engagement-based preference scoring, content & relational feature access, scalable candidate generation, and shared recommendation UI.",
+  "author": "skier233",
+  "repositoryUrl": "https://github.com/yourcove/recommendations",
+  "categories": [
+    "recommendations",
+    "discovery",
+    "ai"
+  ],
+  "screenshots": [],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "changelog": "Initial release.",
+      "downloadUrl": "https://github.com/yourcove/recommendations/releases/download/core/v1.0.0/cove.community.recommendations.core-1.0.0.zip",
+      "minCoveVersion": "1.5.0",
+      "dependencies": {}
+    }
+  ]
+}

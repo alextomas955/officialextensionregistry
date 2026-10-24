@@ -66,6 +66,15 @@
       },
       "checksum": "sha256:7935b0f0c29df2b466f0df785ab190662c9bb7c5acb713a8feeff3ff6111a7c7",
       "releasedAt": "2026-09-24T20:36:24Z"
+    },
+    {
+      "version": "0.8.0",
+      "changelog": "Read asset-level analysis results for videos and let capability contributors plan their own claims.",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-tagging/v0.8.0/cove.community.ai.tagging-0.8.0.zip",
+      "minCoveVersion": "1.7.0",
+      "dependencies": {
+        "cove.community.ai.core": ">=0.8.0"
+      }
     }
   ]
 }
