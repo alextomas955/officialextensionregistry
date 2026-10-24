@@ -17,7 +17,8 @@
       "changelog": "Initial release.",
       "downloadUrl": "https://github.com/yourcove/recommendations/releases/download/core/v1.0.0/cove.community.recommendations.core-1.0.0.zip",
       "minCoveVersion": "1.5.0",
-      "dependencies": {}
+      "dependencies": {},
+      "checksum": "sha256:197559ab5912996cef904361da59f500e53b5ca1ea29e460827e77cd99b44e80"
     }
   ]
 }
