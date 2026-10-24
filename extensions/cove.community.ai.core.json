@@ -55,6 +55,14 @@
       "dependencies": {},
       "checksum": "sha256:6950acdd33b37584d6ff762e44214675d86ece11da054209a37ee52ad6f0d8a9",
       "releasedAt": "2026-09-24T20:36:24Z"
+    },
+    {
+      "version": "0.8.0",
+      "changelog": "Read asset-level analysis results for videos, let capability contributors plan their own claims, and AI Shots support.",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-core/v0.8.0/cove.community.ai.core-0.8.0.zip",
+      "minCoveVersion": "1.7.0",
+      "dependencies": {},
+      "checksum": "sha256:85a2df1833bfda36b608cf4338cb9adcf7c0ddca0057515cc7615b4aa745b490"
     }
   ]
 }

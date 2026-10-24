@@ -1,0 +1,27 @@
+{
+  "id": "cove.community.recommendations.tastes",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/recommendations/main/extensions/Recommendations.Tastes/extension.json",
+  "name": "Recommendations: Tastes",
+  "description": "The full taste model \u2014 scores every video on performers, content, video quality and audio, learned from your ratings and calibrated to your own library, with a per-result breakdown you can sort and filter on. Ships two simpler models alongside it (taste clusters, and a single overall-affinity profile) to compare against.",
+  "author": "skier233",
+  "repositoryUrl": "https://github.com/yourcove/recommendations",
+  "categories": [
+    "recommendations",
+    "discovery",
+    "ai"
+  ],
+  "screenshots": [],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "changelog": "Initial release.",
+      "downloadUrl": "https://github.com/yourcove/recommendations/releases/download/tastes/v1.0.0/cove.community.recommendations.tastes-1.0.0.zip",
+      "minCoveVersion": "1.5.0",
+      "dependencies": {
+        "cove.community.recommendations.core": ">=1.0.0",
+        "cove.community.ai.visual": ">=0.6.0"
+      },
+      "checksum": "sha256:09f3b57a9ce7ca7ccebec38361729b4a8c1db2ae9f8a703d187e33bb4656c6af"
+    }
+  ]
+}

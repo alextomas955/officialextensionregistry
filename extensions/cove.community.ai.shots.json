@@ -1,0 +1,27 @@
+{
+  "id": "cove.community.ai.shots",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/skier233/AI.Extensions/main/extensions/AI.Shots/extension.json",
+  "name": "AI Shots",
+  "description": "Shot-boundary detection for AI runs. Stores each analysed video file's shots in Cove, where every extension can read and edit them.",
+  "author": "skier233",
+  "repositoryUrl": "https://github.com/skier233/AI.Extensions",
+  "categories": [
+    "ai",
+    "metadata",
+    "automation",
+    "video"
+  ],
+  "screenshots": [],
+  "versions": [
+    {
+      "version": "0.8.0",
+      "changelog": "Initial release: shot-boundary detection for AI runs, with shots stored in Cove for other extensions to read and edit.",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-shots/v0.8.0/cove.community.ai.shots-0.8.0.zip",
+      "minCoveVersion": "1.7.0",
+      "dependencies": {
+        "cove.community.ai.core": ">=0.7.0"
+      },
+      "checksum": "sha256:c74badf172cce75c72f6ec40214d440e341073cf800744de8d2d138139c48e04"
+    }
+  ]
+}

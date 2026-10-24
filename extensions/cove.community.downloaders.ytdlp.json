@@ -28,6 +28,14 @@
       "dependencies": {},
       "checksum": "sha256:80004b34996211d538539f51c1b20e190c52c56367d1f1ed7282e8f5a38978b3",
       "releasedAt": "2026-09-24T20:36:24Z"
+    },
+    {
+      "version": "1.2.0",
+      "changelog": "yt-dlp downloader improvements.",
+      "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/ytdlp/v1.2.0/cove.community.downloaders.ytdlp-1.2.0.zip",
+      "minCoveVersion": "1.7.0",
+      "dependencies": {},
+      "checksum": "sha256:9739f93829bce2b53083453ff97aea25d450004c3fd1b6051029a54ed23d106d"
     }
   ]
 }

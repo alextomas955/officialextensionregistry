@@ -44,6 +44,12 @@
       "id": "cove.community.ai.faces"
     },
     {
+      "id": "cove.community.ai.review"
+    },
+    {
+      "id": "cove.community.ai.shots"
+    },
+    {
       "id": "cove.community.ai.tagging"
     },
     {
@@ -60,6 +66,15 @@
     },
     {
       "id": "cove.community.downloaders.ytdlp"
+    },
+    {
+      "id": "cove.community.recommendations.core"
+    },
+    {
+      "id": "cove.community.recommendations.tastes"
+    },
+    {
+      "id": "cove.community.resolutionupgrade"
     },
     {
       "id": "cove.community.scrapers.blackmaleme"

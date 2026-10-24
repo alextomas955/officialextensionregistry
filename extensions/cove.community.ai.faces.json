@@ -66,6 +66,16 @@
       },
       "checksum": "sha256:a6fc6972c5c8e11ee1d1da50bf31b92921783cf93c2be3aef5ef699859a064e3",
       "releasedAt": "2026-09-24T20:36:24Z"
+    },
+    {
+      "version": "0.8.0",
+      "changelog": "Build face covers from every kind of best sample and backfill missing covers; read asset-level analysis results for videos.",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-faces/v0.8.0/cove.community.ai.faces-0.8.0.zip",
+      "minCoveVersion": "1.7.0",
+      "dependencies": {
+        "cove.community.ai.core": ">=0.8.0"
+      },
+      "checksum": "sha256:00d811bd9cc752b314e8b3f288332bef8977727331df883a757ac7742579cff7"
     }
   ]
 }
