@@ -18,7 +18,8 @@
       "downloadUrl": "https://github.com/skier233/ResolutionUpgrade/releases/download/v0.1.0/cove.community.resolutionupgrade-0.1.0.zip",
       "minCoveVersion": "1.7.0",
       "dependencies": {},
-      "checksum": "sha256:ea4a00e2471252383d3f9d18cdca07989110c6246b7d93fa1508d27840ed4c82"
+      "checksum": "sha256:ea4a00e2471252383d3f9d18cdca07989110c6246b7d93fa1508d27840ed4c82",
+      "releasedAt": "2026-10-24T16:28:08Z"
     }
   ]
 }

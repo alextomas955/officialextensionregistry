@@ -35,7 +35,8 @@
       "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/ytdlp/v1.2.0/cove.community.downloaders.ytdlp-1.2.0.zip",
       "minCoveVersion": "1.7.0",
       "dependencies": {},
-      "checksum": "sha256:9739f93829bce2b53083453ff97aea25d450004c3fd1b6051029a54ed23d106d"
+      "checksum": "sha256:9739f93829bce2b53083453ff97aea25d450004c3fd1b6051029a54ed23d106d",
+      "releasedAt": "2026-10-24T16:28:08Z"
     }
   ]
 }

@@ -62,7 +62,8 @@
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-core/v0.8.0/cove.community.ai.core-0.8.0.zip",
       "minCoveVersion": "1.7.0",
       "dependencies": {},
-      "checksum": "sha256:85a2df1833bfda36b608cf4338cb9adcf7c0ddca0057515cc7615b4aa745b490"
+      "checksum": "sha256:85a2df1833bfda36b608cf4338cb9adcf7c0ddca0057515cc7615b4aa745b490",
+      "releasedAt": "2026-10-24T16:28:08Z"
     }
   ]
 }

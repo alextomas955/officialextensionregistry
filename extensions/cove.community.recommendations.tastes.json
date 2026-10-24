@@ -21,7 +21,8 @@
         "cove.community.recommendations.core": ">=1.0.0",
         "cove.community.ai.visual": ">=0.6.0"
       },
-      "checksum": "sha256:09f3b57a9ce7ca7ccebec38361729b4a8c1db2ae9f8a703d187e33bb4656c6af"
+      "checksum": "sha256:09f3b57a9ce7ca7ccebec38361729b4a8c1db2ae9f8a703d187e33bb4656c6af",
+      "releasedAt": "2026-10-24T16:28:08Z"
     }
   ]
 }
