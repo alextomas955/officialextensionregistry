@@ -12,6 +12,13 @@
   "screenshots": [],
   "versions": [
     {
+      "version": "0.6.0",
+      "changelog": "Needs Cove 1.7.0; below that Cove will not load it and 0.5.0 keeps working. Do a dry run before your first rename: resolution labels and frame rates have changed, so a file renamed under an older version can work out to a different name. $resolution now reads the same as the resolution badge Cove shows, $height renders as a label such as 432p or 4K, and $frameRate rounds to two decimals instead of writing every digit of the stored fraction. The settings page is one stack of titled cards with a token list that tints what your templates already use, and the dry run states each number once. Sorting performers by favourites is gone, because Cove made favourites per-user and a filename is the same for everyone; a saved setting that used it now reads Name (A to Z).",
+      "minCoveVersion": "1.7.0",
+      "downloadUrl": "https://github.com/alextomas955/cove-extensions/releases/download/renamer/v0.6.0/com.alextomas955.renamer-0.6.0.zip",
+      "dependencies": {}
+    },
+    {
       "version": "0.5.0",
       "changelog": "Renamer now renames text documents alongside videos, images and audio, with the same templates, dry run and undo. Each kind can be left out on its own, or sent to a folder of its own, from the Per kind list under Where files go. Undoing a rename now tells the rest of Cove the right sort of item changed. Requires Cove 1.5.0.",
       "minCoveVersion": "1.5.0",
@@ -22,7 +29,7 @@
     },
     {
       "version": "0.4.0",
-      "changelog": "Every destination is now a library path you pick from Cove's own list, plus a folder template made under it \u2014 you no longer type a path for one. A folder template is measured from that root rather than from wherever the file sits at the time, so running a rename twice no longer buries the file one directory deeper each run. Preview a dry run before your first rename after upgrading: an item no rule matches can move once. Requires Cove 1.3.1.",
+      "changelog": "Every destination is now a library path you pick from Cove's own list, plus a folder template made under it — you no longer type a path for one. A folder template is measured from that root rather than from wherever the file sits at the time, so running a rename twice no longer buries the file one directory deeper each run. Preview a dry run before your first rename after upgrading: an item no rule matches can move once. Requires Cove 1.3.1.",
       "minCoveVersion": "1.3.1",
       "downloadUrl": "https://github.com/alextomas955/cove-extensions/releases/download/renamer/v0.4.0/com.alextomas955.renamer-0.4.0.zip",
       "checksum": "sha256:9cf47514c45509120a0b793f62ebee32b2fdeb7e395e00a3e428f4a6f15a6a0f",
@@ -31,7 +38,7 @@
     },
     {
       "version": "0.3.0",
-      "changelog": "Bounds the two pieces of state that grew with the size of the library. A whole-library dry run stored one row per file in a single extension-data value; on a very large library that value grew past the serializer's limit, so every read of the settings page failed and repeated attempts could exhaust the server's memory. A scan now stores counts and a move summary only, and dry-run rows are planned a page at a time as you scroll. The undo record is bounded the same way: it keeps only the most recent rename, stores less per file, and does not record a rename of more than 5,000 files \u2014 the confirmation and the dry-run footer say so before it runs. An oversized value left by an earlier version is cleared on first load, so an affected install recovers by upgrading. Dry-run column sorting is removed: a true sort needs every row at once, which no longer exists.",
+      "changelog": "Bounds the two pieces of state that grew with the size of the library. A whole-library dry run stored one row per file in a single extension-data value; on a very large library that value grew past the serializer's limit, so every read of the settings page failed and repeated attempts could exhaust the server's memory. A scan now stores counts and a move summary only, and dry-run rows are planned a page at a time as you scroll. The undo record is bounded the same way: it keeps only the most recent rename, stores less per file, and does not record a rename of more than 5,000 files — the confirmation and the dry-run footer say so before it runs. An oversized value left by an earlier version is cleared on first load, so an affected install recovers by upgrading. Dry-run column sorting is removed: a true sort needs every row at once, which no longer exists.",
       "minCoveVersion": "1.0.0",
       "downloadUrl": "https://github.com/alextomas955/cove-extensions/releases/download/renamer/v0.3.0/com.alextomas955.renamer-0.3.0.zip",
       "checksum": "sha256:7111bc7d1070e395ed9cd1e925c91223e4c7b993bf032ae22e700c3dded4c6b7",
